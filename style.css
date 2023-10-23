@@ -1,0 +1,42 @@
+/*Some necessary adjustments*/
+h1, body, html, main {
+  margin: 0;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  background-color: black;
+}
+
+section {
+  background-color: white;
+  padding: 3% 5% 3% 5%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+p {
+  margin-bottom: 8%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 45px;
+  color: white;
+  padding: 90px;
+}
+
+.fondo {
+  background-image: url(./images/soup.jpg);
+  background-size: cover;
+  padding: 5%;
+}
+
+.small-image {
+  width: 50%;
+  height: 50%;
+  padding: 10px;
+  margin: 0 auto; /* Establece los márgenes horizontales a "auto" */
+  display: block;
+}
